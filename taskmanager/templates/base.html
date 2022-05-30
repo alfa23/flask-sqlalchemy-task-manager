@@ -23,7 +23,7 @@
                 <ul class="right hide-on-med-and-down">
                     <li><a href="{{ url_for('home') }}">Home</a></li>
                     <li><a href="">New Task</a></li>
-                    <li><a href="">Categories</a></li>
+                    <li><a href="{{ url_for('categories') }}">Categories</a></li>
                 </ul>
             </div>
         </nav>
@@ -32,7 +32,7 @@
         <ul class="sidenav" id="mobile-demo">
             <li><a href="{{ url_for('home') }}">Home</a></li>
             <li><a href="">New Task</a></li>
-            <li><a href="">Categories</a></li>
+            <li><a href="{{ url_for('categories') }}">Categories</a></li>
         </ul>
     </header>
 
@@ -44,8 +44,8 @@
     <footer class="page-footer blue-grey darken-3">
         <div class="footer-copyright">
             <div class="container">
-                For education purposes only
-                <a class="white-text right" href="https://github.com/alfa23">&copy; Paul Whiteside</a>
+                For education purposes only.
+                <a class="white-text right" href="https://github.com/alfa23">&copy; Paul Whiteside | Code Institute</a>
             </div>
         </div>
     </footer>
